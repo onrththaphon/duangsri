@@ -1,0 +1,28 @@
+[25-Jun-2025 10:50:02 Europe/Berlin] Add Menu: Error executing insert statement: Duplicate entry '0' for key 'PRIMARY'
+[25-Jun-2025 10:50:21 Europe/Berlin] Add Menu: Error executing insert statement: Duplicate entry '0' for key 'PRIMARY'
+[25-Jun-2025 10:50:37 Europe/Berlin] Add Menu: Error executing insert statement: Duplicate entry '0' for key 'PRIMARY'
+[17-Jul-2025 09:31:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`isanfood`.`order_detail`, CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`menu_id`) REFERENCES `menu` (`menu_id`)) in C:\xampp\htdocs\isanfood\admin\manage_menu.php:49
+Stack trace:
+#0 C:\xampp\htdocs\isanfood\admin\manage_menu.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\isanfood\admin\manage_menu.php on line 49
+[17-Jul-2025 10:34:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`isanfood`.`order_detail`, CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`menu_id`) REFERENCES `menu` (`menu_id`)) in C:\xampp\htdocs\isanfood\admin\manage_menu.php:49
+Stack trace:
+#0 C:\xampp\htdocs\isanfood\admin\manage_menu.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\isanfood\admin\manage_menu.php on line 49
+[17-Jul-2025 12:12:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'isanfood.tb_menu' doesn't exist in C:\xampp\htdocs\isanfood\admin\edit_menu.php:38
+Stack trace:
+#0 C:\xampp\htdocs\isanfood\admin\edit_menu.php(38): mysqli->prepare('SELECT tm.*, tm...')
+#1 {main}
+  thrown in C:\xampp\htdocs\isanfood\admin\edit_menu.php on line 38
+[17-Jul-2025 12:47:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`isanfood`.`order_detail`, CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`menu_id`) REFERENCES `menu` (`menu_id`)) in C:\xampp\htdocs\isanfood\admin\manage_menu.php:49
+Stack trace:
+#0 C:\xampp\htdocs\isanfood\admin\manage_menu.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\isanfood\admin\manage_menu.php on line 49
+[17-Jul-2025 12:49:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`isanfood`.`order_detail`, CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`menu_id`) REFERENCES `menu` (`menu_id`)) in C:\xampp\htdocs\isanfood\admin\manage_menu.php:49
+Stack trace:
+#0 C:\xampp\htdocs\isanfood\admin\manage_menu.php(49): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\isanfood\admin\manage_menu.php on line 49
